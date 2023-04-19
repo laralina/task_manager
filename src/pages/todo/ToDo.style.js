@@ -1,5 +1,15 @@
 import styled, { keyframes, css } from 'styled-components';
 
+const Mounted = keyframes`
+  0%{
+    opacity: 0;
+    }
+
+    100%{
+      opacity: 1;
+    }
+`;
+
 const FadeIn = keyframes`
   0%{
     scale: 0;
@@ -20,6 +30,7 @@ export const Main = styled.div`
   width: 100vw;
   height: 100vh;
   background: #f7f7f7;
+  animation: ${Mounted} 1s;
 `;
 
 export const Container = styled.div`

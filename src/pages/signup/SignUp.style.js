@@ -63,6 +63,7 @@ export const Input = styled.input`
   border-radius: 30px;
   border: 0px;
   background: #dddddd;
+  outline: none;
 `;
 
 export const Label = styled.label`
