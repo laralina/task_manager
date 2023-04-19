@@ -1,16 +1,22 @@
-# 📝 Task Manager
-wanted-pre-onboarding-frontend
+
+# wanted-pre-onboarding-frontend
+![자산 1@5x](https://user-images.githubusercontent.com/118322531/233009277-a2b675a6-6378-4302-aca1-272c06e5b7da.png)
+
+
 원티드 프리온보딩 프론트엔드 선발과제
 <br />
-작성자 : 김수현 
+**작성자 : 김수현**
 
-## 📎 배포 링크
-[링크 바로가기 (클릭!)](http://asapsuhyeon.s3-website-ap-northeast-1.amazonaws.com/)
+---
 
-## 📅 개발 기간
+### 📎 배포 링크
+[바로가기 (클릭!)](http://asapsuhyeon.s3-website-ap-northeast-1.amazonaws.com/)
+
+
+### 📅 개발 기간
 2023.4.18~ 2023.4.19
 
-## 🔧 기술 스택
+### 🔧 기술 스택
 [![My Skills](https://skillicons.dev/icons?i=js,react,styledcomponents,aws&perline=4)](https://skillicons.dev)
 
 ## 🌟 구현 사항
