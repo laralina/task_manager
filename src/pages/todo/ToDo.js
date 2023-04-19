@@ -54,8 +54,14 @@ export default function ToDO() {
       <S.Container>
         <S.Title>Task Manager</S.Title>
         <S.InputWrapper>
-          <S.AddInput onChange={handleNewInput} value={newInput} />
-          <S.AddButton onClick={addNewList}>Add</S.AddButton>
+          <S.AddInput
+            onChange={handleNewInput}
+            value={newInput}
+            data-testid="new-todo-input"
+          />
+          <S.AddButton onClick={addNewList} data-testid="new-todo-add-button">
+            Add
+          </S.AddButton>
         </S.InputWrapper>
         <S.ListContainer>
           {cardData?.map(item => {
