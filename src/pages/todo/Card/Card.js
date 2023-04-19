@@ -79,17 +79,23 @@ export default function Card({ item, setLoading }) {
       </S.CustomCheckboxWrapper>
       {toggle ? (
         <>
-          <S.ModifyInput defaultValue={todo} onChange={handleUpdateInput} />
+          <S.ModifyInput
+            defaultValue={todo}
+            onChange={handleUpdateInput}
+            data-testid="modify-input"
+          />
           <S.IconWrapper>
             <S.ConfirmIcon
               alt="modify"
               src={process.env.PUBLIC_URL + '/images/checkIcon.svg'}
               onClick={updateCard}
+              data-testid="submit-button"
             />
             <S.CancelIcon
               alt="modify"
               src={process.env.PUBLIC_URL + '/images/deleteIcon.svg'}
               onClick={() => setToggle(false)}
+              data-testid="cancel-button"
             />
           </S.IconWrapper>
         </>
@@ -101,11 +107,13 @@ export default function Card({ item, setLoading }) {
               alt="modify"
               src={process.env.PUBLIC_URL + '/images/modifyIcon.svg'}
               onClick={() => setToggle(true)}
+              data-testid="modify-button"
             />
             <S.DeleteIcon
               alt="delete"
               src={process.env.PUBLIC_URL + '/images/deleteIcon.svg'}
               onClick={() => deleteCard()}
+              data-testid="delete-button"
             />
           </S.IconWrapper>
         </>
