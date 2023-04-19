@@ -2,10 +2,13 @@
 wanted-pre-onboarding-frontend
 원티드 프리온보딩 프론트엔드 선발과제
 <br />
-작성자 : 김수현
+작성자 : 김수현 
 
 ## 📎 배포 링크
 [링크 바로가기 (클릭!)](http://asapsuhyeon.s3-website-ap-northeast-1.amazonaws.com/)
+
+## 📅 개발 기간
+2023.4.18~ 2023.4.19
 
 ## 🔧 기술 스택
 [![My Skills](https://skillicons.dev/icons?i=js,react,styledcomponents,aws&perline=4)](https://skillicons.dev)
@@ -30,9 +33,14 @@ wanted-pre-onboarding-frontend
 - [X] Delete 버튼 클릭 시 해당 Card 삭제
 
 ```
-그 외, 페이지 및 컴포넌트 간 자연스러운 전환을 위해 css 애니메이션 설정
++ 페이지 및 컴포넌트 간 자연스러운 전환을 위해 css 애니메이션 설정
++ AWS를 통한 사이트 배포 완료
 ```
 
 ## 🔥 개선 필요 사항
-- [] 통신 실패 시의 Error Handling, 또 사용자가 이를 인지할 수 있도록 UI/UX적으로 추가 구현 필요
-- [] 메뉴 간 빠른 이동이 가능하도록 Nav바 추가
+- [ ] 통신 실패 시의 Error Handling, 또 사용자가 이를 인지할 수 있도록 UI/UX적으로 추가 구현 필요
+- [ ] fetch 구문 더 깔끔하고 효율적으로 사용하는 방법 연구 필요
+- [ ] useEffect 대신 async,await 등의 방법을 사용할 수 없을지? 연구 필요
+
+
+
