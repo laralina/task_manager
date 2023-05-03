@@ -2,8 +2,6 @@
 # wanted-pre-onboarding-frontend
 ![자산 1@5x](https://user-images.githubusercontent.com/118322531/233009277-a2b675a6-6378-4302-aca1-272c06e5b7da.png)
 
-
-원티드 프리온보딩 프론트엔드 선발과제
 <br />
 **작성자 : 김수현**
 
